@@ -2,6 +2,9 @@
 
 :root {
  --primary-white: #fff; 
+ --primary-red:#ef4035;
+ --primary-hover-red:#f33501;
+
 }
 
 body {
@@ -48,4 +51,49 @@ nav ul li {
 }
 .btn:hover {
 background-color: rgba(255, 255, 255, 0.342);
+}
+
+/* Header */
+
+.header-wrapper {
+  position: relative;
+  background: url(./images/HeaderLogo.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top:25rem;
+  left: 0;
+  right: 0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  text-transform: uppercase;
+}
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+   
+  }
+}
+
+/* Header main offer */
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: .625rem .75rem .75rem .75rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

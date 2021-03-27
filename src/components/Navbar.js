@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../images/jLaroWhite.png";
 import * as cgIcons from "react-icons/cg";
 
-const Navbar = () => {
+export default function Navbar() {
     return (
             <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
             <div className="container-fluid">
@@ -33,4 +33,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+
