@@ -113,15 +113,35 @@ nav ul li {
 
 .slides {
   display: grid;
+
 }
 .slide {
   grid-area: 1/-1;
   width:30vw;
   height: 40vw;
-  outline: 1px solid;
-  transform: translateX(calc(100% * var(--offset)));
+  border: 5px solid;
+  background-size: cover;
+  background-position:center center ;
+
+  /* --x:calc(var(--px)- .5); */
+
+  transform: 
+  translateX(calc(100% * var(--offset)))
+  rotateY(calc(-45deg * var(--dir)));
+
+  transition: transform 0.5s ease-in-out;
 }
 
-.slide[data-active] {
-  outline-color: red;
+.slide[data-active]:hover {
+  border-color: red;
+  color: red;
+  --x:calc(var(--px)- .5);
+
+  transform: 
+  rotateX(calc(var(--x)*45de));
+
+
+  transform: 
+  rotateX(calc(var(--x) * 45deg));
 }
+
