@@ -5,7 +5,6 @@ export default function Header() {
         <div className="header-wrapper">
             <div className="main-info">
                 <h1> web developer | graphic designer</h1>
-            <a href="#" className="btn-main-offer">contact</a>
             </div>
         </div>
     )
