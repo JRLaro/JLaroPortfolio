@@ -16,7 +16,11 @@ body {
 }
 
 .navbar {
-  position: sticky;
+  overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Menu links */
@@ -82,10 +86,11 @@ nav ul li {
 
 .main-info h1 {
   text-transform: uppercase;
+  top:15%;
 }
 @media (max-width: 768px) {
   .main-info h1 {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
   }
 }
 
@@ -102,46 +107,8 @@ nav ul li {
 
 .about-wrapper {
   position: relative;
-  /* background: url(./images/HeaderLogo.png) no-repeat; */
   background-color: #092a47;
-  background-size: cover;
   background-position: center;
   height: 90vh;
 }
-
-/* PROJECT */
-
-/* .slides {
-  display: grid;
-
-}
-.slide {
-  grid-area: 1/-1;
-  width:30vw;
-  height: 40vw;
-  border: 5px solid;
-  background-size: cover;
-  background-position:center center ;
-
-  transform: 
-  translateX(calc(100% * var(--offset)))
-  rotateY(calc(-45deg * var(--dir)));
-
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide[data-active]:hover {
-  border-color: red;
-  color: red;
-  --x:calc(var(--px)- .5);
-
-  transform: 
-  rotateX(calc(var(--x)*45de));
-
-
-  transform: 
-  rotateX(calc(var(--x) * 45deg));
-} */
-
-/* ||||||||||||||||||||||||||CSS||||||||||||||||||||||||||||| */
 
