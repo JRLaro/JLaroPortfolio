@@ -111,7 +111,7 @@ nav ul li {
 
 /* PROJECT */
 
-.slides {
+/* .slides {
   display: grid;
 
 }
@@ -122,8 +122,6 @@ nav ul li {
   border: 5px solid;
   background-size: cover;
   background-position:center center ;
-
-  /* --x:calc(var(--px)- .5); */
 
   transform: 
   translateX(calc(100% * var(--offset)))
@@ -143,5 +141,7 @@ nav ul li {
 
   transform: 
   rotateX(calc(var(--x) * 45deg));
-}
+} */
+
+/* ||||||||||||||||||||||||||CSS||||||||||||||||||||||||||||| */
 

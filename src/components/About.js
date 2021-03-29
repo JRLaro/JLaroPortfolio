@@ -19,7 +19,7 @@ function About() {
           </div>
           <div className="col-sm-12">
             <div className="col">
-              <p>
+              <p className= "text-white">
                 My name is Joseph Laro, and I am an inspiring Full-Stack
                 Developer. I am currently enrolled in the University of Central
                 Florida's BootCamp program. As a freelance graphic designer I
