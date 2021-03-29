@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+
 console.clear();
 
 const slides = [
@@ -28,13 +29,13 @@ const slides = [
     image: "https://picsum.photos/seed/picsum/350/450",
   },
   {
-    title: "¿ Dondé ?",
+    title: "This",
     subtitle: "",
     description: " Travel Application ",
     image: "https://picsum.photos/seed/picsum/350/450",
   },
   {
-    title: "¿ Dondé ?",
+    title: "That",
     subtitle: "",
     description: " Travel Application ",
     image: "https://picsum.photos/seed/picsum/350/450",
@@ -119,9 +120,9 @@ function Slide({ slide, offset }) {
     >
       <div
         className="slideBackground"
-        style={{
-          backgroundImage: `url('${slide.image}')`
-        }}
+        // style={{
+        //   backgroundImage: `url('${slide.image}')`
+        // }}
       />
       <div
         className="slideContent"
@@ -144,9 +145,9 @@ function Slide({ slide, offset }) {
 
     return (
       <div className="slides" id="projects">
-        <h1> Projects {state.slideIndex} </h1>
+        <h1> Projects </h1>
         <button
-          className="btn btn-danger"
+          className="btn btn-danger proj-button"
           onClick={() => dispatch({ type: "PREV" })}
         >
           Previous
@@ -157,7 +158,7 @@ function Slide({ slide, offset }) {
         })}
 
         <button
-          className="btn btn-success"
+          className="btn btn-success proj-button"
           onClick={() => dispatch({ type: "NEXT" })}
         >
           Next
