@@ -4,11 +4,19 @@ import "./Projects.css"
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Router from "./Router";
+import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Router />
+      {/* <Router /> */}
+      <Navbar />
+            
+            
+                    <HomePage />
+             
+            <Footer />
     </>
   );
 }
