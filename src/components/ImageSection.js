@@ -11,7 +11,7 @@ function ImageSection() {
           I am<span> Jose Laro</span>
         </h4>
         <p className="about-text">
-          I am an inspiring Junior Full-Stack Developer. I have just completed the
+          I am an aspiring Junior Full-Stack Developer. I have just completed the
           University of Central Florida's FullStack Development BootCamp and I
           am now looking to implement and utilize my newfound skills for a
           company that is wanting a creative perspective. As a freelance graphic

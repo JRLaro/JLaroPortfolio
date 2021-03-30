@@ -7,6 +7,7 @@ import PortfoliosPage from './pages/PortfoliosPage';
 // import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
+import * as cgIcons from "react-icons/cg";
 
 function TestingApp() {
   const [navToggle, setNavToggle] = useState(false);
@@ -36,9 +37,6 @@ function TestingApp() {
               </Route>
               <Route path="/portfolios" exact>
                 <PortfoliosPage />
-              </Route>
-              <Route path="/blogs" exact>
-                {/* <BlogsPage /> */}
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />
