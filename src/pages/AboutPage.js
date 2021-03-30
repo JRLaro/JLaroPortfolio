@@ -19,8 +19,13 @@ function AboutPage() {
                 <SkillsSection skill={'Javascript'} width={'60%'} />
                 <SkillsSection skill={'React Js'} width={'70%'} />
                 <SkillsSection skill={'Node Js'} width={'60%'} />
-                <SkillsSection skill={'Illustrator'} width={'80%'} />
+                <SkillsSection skill={'Adobe Illustrator'} width={'80%'} />
+                <SkillsSection skill={'Adobe After Effects'} width={'80%'} />
+                <SkillsSection skill={'Adobe Photoshop'} width={'80%'} />
+                <SkillsSection skill={'Adobe Lightroom'} width={'80%'} />
+                <SkillsSection skill={'Adobe Premier'} width={'80%'} />
                 <SkillsSection skill={'MongoDb'} width={'80%'} />
+                <SkillsSection skill={'Express'} width={'80%'} />
                 <SkillsSection skill={'Web Design'} width={'85%'} />
                 <SkillsSection skill={'UI/Ux Design'}  width={'85%'} />
             </div>

@@ -14,7 +14,6 @@ function Router() {
                     <HomePage />
                 </Route>
             </Switch>
-            <Footer />
            </BrowserRouter>
            
     )
