@@ -26,12 +26,16 @@ body::-webkit-scrollbar-track{
 }
 
 body{
-    color: #a4acc4;
+    color: #ffffff;
+    // color: #000000;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
 span{
-    color: #037FFF;
+    color: #0000009d;
+}
+.jlaro{
+    color: #ffb303;
 }
 
 @media screen and (max-width: 411px){

@@ -6,13 +6,13 @@
     .skill-title{
         font-size: 1.4rem;
         font-weight: 400;
+        color: black;
     }
 
     .skill-bar{
         display: flex;
         align-items: center;
-        .skill-text{
-        }
+
         .skill-progress{
             width: 100%;
            .progress{

@@ -1,14 +1,14 @@
 import React from 'react';
 import Categories from '../components/Categories';
 import MenuItems from '../components/MenuItems';
-import Tittle from '../components/Title';
+import Title from '../components/Title';
 import portfolios from '../components/allPortfolios';
 import { useState } from 'react';
 
-// const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
+const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
 function PortfoliosPage() {
-    // const [categories, setCategories] = useState(allCategories);
+    const [categories, setCategories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(portfolios);
 
     const filter = (category) =>{
@@ -25,10 +25,10 @@ function PortfoliosPage() {
     return (
         <div className="PortfolioPage">
             <div className="title">
-                <Tittle title={'Portfolios'} span={'portfolios'} />
+                <Title title={'Portfolios'} span={'portfolios'} />
             </div>
             <div className="portfolios-data">
-                {/* <Categories filter={filter} categories={categories} /> */}
+                <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
         </div>

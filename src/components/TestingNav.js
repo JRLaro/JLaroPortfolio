@@ -15,22 +15,22 @@ function Navbar() {
 
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
+                        <NavLink to="/" exact activeClassName="active" className="nav-name">
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
+                        <NavLink to="/about" exact activeClassName="active" className="nav-name">
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
+                        <NavLink to="/portfolios" exact activeClassName="active" className="nav-name">
                             Portfolios
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
+                        <NavLink to="/contact" exact activeClassName="active" className="nav-name">
                             Contact
                         </NavLink>
                     </li>
