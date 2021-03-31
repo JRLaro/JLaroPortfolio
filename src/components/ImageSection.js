@@ -5,7 +5,7 @@ import resume from "../images/j.LaroResume.pdf";
 function ImageSection() {
   return (
     <div className="ImageSection">
-      <div className="img">{/* <img src={about} alt=""/> */}</div>
+      {/* <div className="img"> <img src={about} alt=""/> </div>  */}
       <div className="about-info">
         <h4 >
           I am <span className="jlaro"> Jose Laro</span>
