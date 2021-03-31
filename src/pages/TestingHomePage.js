@@ -1,16 +1,17 @@
 import React from "react";
 import * as faIcons from "react-icons/fa";
 import {Link} from 'react-router-dom';
-
+import Logo from "../images/jLaro.png"
 function TestingHomePage() {
   return (
     <div className="HomePage">
       <header className="hero">
+        <img src={Logo} style={{width:"50%", justifyContent:"center"}}/>
         <h1 className="hero-text">
           Hi, I am
           <span> Jose Laro</span>
         </h1>
-        <p className="h-sub-text text-dark">
+        <p className="h-sub-text">
           Web Developer | Graphic Designer
         </p>
         <div className="icons">

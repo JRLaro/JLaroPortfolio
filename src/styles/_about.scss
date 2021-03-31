@@ -16,9 +16,11 @@
         margin-left: 2rem;
         h4{
             font-size: 2rem;
+            color: black;
         }
         .about-text{
             padding: 1rem 0;
+            color: black;
         }
     }
     @media screen and (max-width: 1400px){
@@ -43,12 +45,12 @@
 
 .btn{
     padding: 1rem 2rem;
-    background-color: #037FFF;
+    background-color: #ffb303;
     outline: none;
     border: none;
     font-family: inherit;
     font-size: inherit;
-    color: white;
+    color: black;
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 2px;
@@ -61,7 +63,7 @@
         height: .3rem;
         left: 0;
         bottom: 0;
-        background-color: #a4acc4;;
+        background-color: black;;
         transition: all 0.4s ease-in-out;
     }
     &:hover::after{
