@@ -54,7 +54,7 @@
                         font-family: inherit;
                         border-radius: 10px;
                         background-color: #037FFF;
-                        color: white;
+                        color: rgb(255, 255, 255);
                         &:not(:last-child){
                             margin-right: 2rem;
                         }
@@ -74,7 +74,7 @@
         h5{
             font-size: 1.7rem;
             font-weight: 400;
-            color: white;
+            color: rgb(0, 0, 0);
             transition: all .3s ease-in-out;
             &:hover{
                 color:  #037FFF;
