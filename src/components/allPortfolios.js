@@ -9,8 +9,8 @@ const portfolios = [
     {
         id: 1,
         category: 'React',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        link1: 'https://github.com/jmasone15/travel-planner-project',
+        link2: 'https://dondetravel.herokuapp.com/',
         icon1: 'Repo',
         icon2: 'Demo',
         image: port1,
@@ -19,7 +19,7 @@ const portfolios = [
     {
         id: 2,
         category: 'API',
-        link1: 'https://jrlaro.github.io/JJAM/',
+        link1: 'https://github.com/JRLaro/JJAM',
         link2: 'https://jrlaro.github.io/JJAM/',
         icon1: 'Repo',
         icon2: 'Demo',
@@ -29,8 +29,8 @@ const portfolios = [
     {
         id: 3,
         category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        link1: 'https://github.com/JRLaro/employeedirectory',
+        link2: 'https://jrlaro.github.io/employeedirectory/',
         icon1: 'Repo',
         icon2: 'Demo',
         image: port3,
@@ -39,8 +39,8 @@ const portfolios = [
     {
         id: 4,
         category: 'MongoDb',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        link1: 'https://github.com/JRLaro/budget-tracker',
+        link2: 'https://aqueous-thicket-74160.herokuapp.com//',
         icon1: 'Repo',
         icon2: 'Demo',
         image: port4,
@@ -49,8 +49,8 @@ const portfolios = [
     {
         id: 5,
         category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        link1: 'https://github.com/JRLaro/workOutTracker',
+        link2: 'https://shrouded-beyond-71481.herokuapp.com/',
         icon1: 'Repo',
         icon2: 'Demo',
         image: port5,
@@ -59,12 +59,12 @@ const portfolios = [
     {
         id: 6,
         category: 'MongoDb',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
+        link1: 'https://github.com/JRLaro/PasswordGenerator',
+        link2: 'https://jrlaro.github.io/PasswordGenerator/',
         icon1: 'Repo',
         icon2: 'Demo',
         image: port6,
-        title: 'Vanilla Javascript Website'
+        title: 'Password Generator'
     }
 ]
 
