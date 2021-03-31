@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import * as faIcons from "react-icons/fa";
 import {Link} from 'react-router-dom';
-import Logo from "../images/jLaro.png"
+import Logo from "../images/jLaroBlack.png";
+import Parallax from "parallax-js";
+// import gsap from "gsap";
+
+
+
 function TestingHomePage() {
+  useEffect(() => {
+    var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene);
+  }, [])
+
   return (
     <div className="HomePage">
       <header className="hero">
-        <img src={Logo} style={{width:"50%", justifyContent:"center"}}/>
+        
+        <div id="scene">
+          <img data-depth=".5" src={Logo} style={{ width: "30rem", display: "block", marginLeft: "auto", marginRight: "auto" }} />
+        </div>
+        
         <h1 className="hero-text">
           Hi, I am
           <span> Jose Laro</span>
