@@ -53,7 +53,7 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 10px;
-                        background-color: #037FFF;
+                        background-color: #ffb303;
                         color: rgb(255, 255, 255);
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -77,7 +77,7 @@
             color: rgb(0, 0, 0);
             transition: all .3s ease-in-out;
             &:hover{
-                color:  #037FFF;
+                color:  #454545;
                 cursor: pointer;
             }
         }
