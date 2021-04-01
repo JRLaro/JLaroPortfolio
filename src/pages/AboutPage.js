@@ -62,6 +62,9 @@ function AboutPage() {
               <siIcons.SiCss3 className="icon css" />
             </Link>
             <Link to="#" target="_blank" className="icon-holder">
+              <siIcons.SiSass className="icon scss" />
+            </Link>
+            <Link to="#" target="_blank" className="icon-holder">
               <siIcons.SiBootstrap className="icon boot" />
             </Link>
             <Link to="#" target="_blank" className="icon-holder">
