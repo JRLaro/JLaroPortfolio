@@ -70,6 +70,9 @@ function AboutPage() {
             <Link to="#" target="_blank" className="icon-holder">
               <siIcons.SiJavascript className="icon js" />
             </Link>
+            <Link to="#" target="_blank" className="icon-holder">
+              <siIcons.SiTypescript className="icon ts" />
+            </Link>
                       
           <Link to="#" target="_blank" className="icon-holder">
             <siIcons.SiReact className="icon react" />
