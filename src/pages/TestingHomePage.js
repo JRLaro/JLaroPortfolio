@@ -3,7 +3,7 @@ import * as faIcons from "react-icons/fa";
 import {Link} from 'react-router-dom';
 import Logo from "../images/jLaroBlack.png";
 import Parallax from "parallax-js";
-// import gsap from "gsap";
+
 
 
 

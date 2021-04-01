@@ -1,9 +1,12 @@
 import React from "react";
 import ContactItem from "../components/ContactItem";
-// import phone from '../img/phone.svg';
+import * as fiIcons from "react-icons/fi"
 // import email from '../img/emailme.svg';
 // import location from '../img/location.svg';
 import Title from "../components/Title";
+
+
+const phone = <fiIcons.FiPhoneIncoming />
 
 function ContactPage() {
   return (
