@@ -31,13 +31,13 @@ function TestingApp() {
               <Route exact path="/">
                 <TestingHomePage />
               </Route>
-              <Route exact path="/about" >
+              <Route path="/about" >
                 <AboutPage />
               </Route>
-              <Route exact path="/portfolios" >
+              <Route path="/portfolios" >
                 <PortfoliosPage />
               </Route>
-              <Route exact path="/contact" >
+              <Route path="/contact" >
                 <ContactPage />
               </Route>
             </Switch>
