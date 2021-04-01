@@ -1,11 +1,11 @@
 import './App.scss';
 import NavBar from './components/TestingNav';
 import TestingHomePage from './pages/TestingHomePage';
-import {Switch, Route} from 'react-router-dom';
 import AboutPage from './pages/AboutPage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function TestingApp() {
@@ -16,6 +16,7 @@ function TestingApp() {
   }
 
   return (
+    <Router>
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
@@ -44,6 +45,7 @@ function TestingApp() {
           </div>
       </div>
     </div>
+</Router>
   );
 }
 
