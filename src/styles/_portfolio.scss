@@ -38,7 +38,9 @@
                 height: 30vh;
                 object-fit: cover;
             }
-
+ descript{
+     color:black
+ }
             .hover-items{
                 list-style: none;
                 position: absolute;
@@ -74,6 +76,8 @@
         h5{
             font-size: 1.7rem;
             font-weight: 400;
+            // text-align: center;
+            margin-top:20%;
             color: rgb(0, 0, 0);
             transition: all .3s ease-in-out;
             &:hover{

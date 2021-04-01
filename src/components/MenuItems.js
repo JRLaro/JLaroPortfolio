@@ -12,13 +12,16 @@ function MenuItems({menuItem}) {
                                 <li>
                                     <a href={item.link1} target="_blank">{item.icon1}</a>
                                     <a href={item.link2} target="_blank">{item.icon2}</a>
+                                    <h5 className="text-center">
+                            {item.title}
+                        </h5>
                                 </li>
                             </ul>
                         </div>
-                        <h5>
+                        {/* <h5 className="text-center">
                             {item.title}
-                        </h5>
-                        <p>Placeholder paragraph</p>
+                        </h5> */}
+                        <p className="descript">{item.description}</p>
                     </div>
                 })
             }
