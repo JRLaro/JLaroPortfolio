@@ -10,7 +10,7 @@ function Router() {
         <BrowserRouter>
             <Navbar />
             <Switch>
-                <Route path="/">
+                <Route path="/JLaroPortfolio">
                     <HomePage />
                 </Route>
             </Switch>
