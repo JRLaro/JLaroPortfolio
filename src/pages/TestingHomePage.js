@@ -18,7 +18,7 @@ function TestingHomePage() {
       <header className="hero">
         
         <div id="scene">
-          <img data-depth=".5" src={Logo} style={{ width: "30rem", display: "block", marginLeft: "auto", marginRight: "auto" }} />
+          <img data-depth=".5" src={Logo} alt="j.Laro logo" style={{ width: "30rem", display: "block", marginLeft: "auto", marginRight: "auto" }} />
         </div>
         
         <h1 className="hero-text">
