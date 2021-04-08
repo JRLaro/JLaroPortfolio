@@ -52,7 +52,6 @@ function AboutPage() {
                     </a>
                     </div>
             </div> */}
-
               <div className="icons">
                 
             <a href="#" target="_blank" className="icon-holder">

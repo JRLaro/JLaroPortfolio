@@ -23,15 +23,17 @@ function TestingHomePage() {
         
         <h1 className="hero-text">
           Hi, I am
-          <span> Jose Laro</span>
+           <Link to='/about' style={{textDecoration:"none"}}>
+          <span> Jose Laro </span>
+           </Link>
         </h1>
         <p className="h-sub-text">
           Web Developer | Graphic Designer
         </p>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/jlaro/" target="_blank" className="icon-holder">
+          <Link to="https://www.linkedin.com/in/jlaro/" target="_blank" className="icon-holder">
             <faIcons.FaLinkedin className="icon ln" />
-            </a>
+            </Link>
           <Link to="https://github.com/JRLaro" target="_blank" className="icon-holder">
             <faIcons.FaGithub className="icon gh" />
           </Link>
