@@ -1,7 +1,8 @@
 import port1 from "../images/logoDonde.png";
 import port2 from "../images/over.png";
 import port3 from "../images/employeeDirectory.png";
-import port4 from "../images/budgetTracker.png";
+// import port4 from "../images/budgetTracker.png";
+import port4 from "../images/ghLocator.png";
 import port5 from "../images/dashboard.png";
 import port6 from "../images/password.png";
 
@@ -15,7 +16,7 @@ const portfolios = [
     icon2: "Demo",
     image: port1,
     title: "¿Dondé?",
-    // description:
+    description: "this is an appplication"
   },
   {
     id: 2,
@@ -41,15 +42,26 @@ const portfolios = [
   },
   {
     id: 4,
-    category: "Budget Tracker",
-    link1: "https://github.com/JRLaro/budget-tracker",
-    link2: "https://aqueous-thicket-74160.herokuapp.com//",
+    category: "GitHub Locator",
+    link1: "https://github.com/JRLaro/githubLocator.git",
+    link2: "https://jrlaro.github.io/githubLocator/",
     icon1: "Repo",
     icon2: "Demo",
     image: port4,
-      title: "Budget Tracker",
+      title: "GitHub Locator",
     //   description:
   },
+  // {
+  //   id: 4,
+  //   category: "Budget Tracker",
+  //   link1: "https://github.com/JRLaro/budget-tracker",
+  //   link2: "https://aqueous-thicket-74160.herokuapp.com//",
+  //   icon1: "Repo",
+  //   icon2: "Demo",
+  //   image: port4,
+  //     title: "Budget Tracker",
+  //   //   description:
+  // },
   {
     id: 5,
     category: "Workout Tracker",
