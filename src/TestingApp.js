@@ -5,7 +5,7 @@ import AboutPage from './pages/AboutPage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
-import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function TestingApp() {
@@ -17,7 +17,7 @@ function TestingApp() {
 
   return (
     <Router>
-    <div className="App">
+    <div className="App2">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>
@@ -29,7 +29,7 @@ function TestingApp() {
       <div className="main-content">
           <div className="content">
             <Switch>
-              <Redirect from='/JLaroPortfolio' to='/'/>
+              {/* <Redirect from='/JLaroPortfolio' to='/'/> */}
               <Route exact path="/">
                 <TestingHomePage />
               </Route>
