@@ -17,7 +17,7 @@ function TestingApp() {
 
   return (
     <Router>
-    <div className="App2">
+    <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>
@@ -29,7 +29,7 @@ function TestingApp() {
       <div className="main-content">
           <div className="content">
             <Switch>
-              {/* <Redirect from='/JLaroPortfolio' to='/'/> */}
+              
               <Route exact path="/">
                 <TestingHomePage />
               </Route>
