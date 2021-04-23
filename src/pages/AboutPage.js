@@ -1,14 +1,12 @@
 import React from "react";
 import Title from "../components/Title";
 import ImageSection from "../components/ImageSection";
-import SkillsSection from "../components/SkillsSection";
-import ServicesSection from "../components/ServicesSection";
 import * as siIcons from "react-icons/si";
 import { Link } from "react-router-dom";
 
 function AboutPage() {
   return (
-    <div className="AboutPage">
+    <div className="AboutPage container ">
       <Title title={"About Me"} span={"About Me"} />
       <ImageSection />
       <Title title={"My Skills"} span={"My Skills"} />
@@ -54,37 +52,37 @@ function AboutPage() {
             </div> */}
               <div className="icons">
                 
-            <a href="#" target="_blank" className="icon-holder">
+            <span className="icon-holder">
               <siIcons.SiHtml5 className="icon html" />
-            </a>
-            <Link to="#" target="_blank" className="icon-holder">
+            </span>
+            <span className="icon-holder">
               <siIcons.SiCss3 className="icon css" />
-            </Link>
-            <Link to="#" target="_blank" className="icon-holder">
+            </span>
+            <span className="icon-holder">
               <siIcons.SiSass className="icon scss" />
-            </Link>
-            <Link to="#" target="_blank" className="icon-holder">
+            </span>
+            <span className="icon-holder">
               <siIcons.SiBootstrap className="icon boot" />
-            </Link>
-            <Link to="#" target="_blank" className="icon-holder">
+            </span>
+            <span className="icon-holder">
               <siIcons.SiJavascript className="icon js" />
-            </Link>
-            <Link to="#" target="_blank" className="icon-holder">
+            </span>
+            <span className="icon-holder">
               <siIcons.SiTypescript className="icon ts" />
-            </Link>
+            </span>
                       
-          <Link to="#" target="_blank" className="icon-holder">
+          <span className="icon-holder">
             <siIcons.SiReact className="icon react" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
+          </span>
+          <span className="icon-holder">
             <siIcons.SiMongodb className="icon mdb" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
+          </span>
+          <span className="icon-holder">
             <siIcons.SiMysql className="icon sql" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
+          </span>
+          <span className="icon-holder">
             <siIcons.SiNodeDotJs className="icon node" />
-          </Link>
+          </span>
           {/* <Link to="#" target="_blank" className="icon-holder">
             <siIcons.SiAdobeillustrator className="icon ap" />
           </Link>

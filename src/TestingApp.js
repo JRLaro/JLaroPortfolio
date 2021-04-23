@@ -29,7 +29,6 @@ function TestingApp() {
       <div className="main-content">
           <div className="content">
             <Switch>
-              
               <Route exact path="/">
                 <TestingHomePage />
               </Route>
