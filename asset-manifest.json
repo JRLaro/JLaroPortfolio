@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/JLaroPortfolio/static/css/main.a9bbd6fc.chunk.css",
-    "main.js": "/JLaroPortfolio/static/js/main.9511d5e0.chunk.js",
-    "main.js.map": "/JLaroPortfolio/static/js/main.9511d5e0.chunk.js.map",
+    "main.css": "/JLaroPortfolio/static/css/main.17388689.chunk.css",
+    "main.js": "/JLaroPortfolio/static/js/main.60c013c9.chunk.js",
+    "main.js.map": "/JLaroPortfolio/static/js/main.60c013c9.chunk.js.map",
     "runtime-main.js": "/JLaroPortfolio/static/js/runtime-main.91e660c2.js",
     "runtime-main.js.map": "/JLaroPortfolio/static/js/runtime-main.91e660c2.js.map",
     "static/js/2.ecf358c7.chunk.js": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js",
     "static/js/2.ecf358c7.chunk.js.map": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js.map",
     "index.html": "/JLaroPortfolio/index.html",
-    "static/css/main.a9bbd6fc.chunk.css.map": "/JLaroPortfolio/static/css/main.a9bbd6fc.chunk.css.map",
+    "static/css/main.17388689.chunk.css.map": "/JLaroPortfolio/static/css/main.17388689.chunk.css.map",
     "static/js/2.ecf358c7.chunk.js.LICENSE.txt": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js.LICENSE.txt",
     "static/media/dashboard.78c7f36c.png": "/JLaroPortfolio/static/media/dashboard.78c7f36c.png",
     "static/media/employeeDirectory.d39d194a.png": "/JLaroPortfolio/static/media/employeeDirectory.d39d194a.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.91e660c2.js",
     "static/js/2.ecf358c7.chunk.js",
-    "static/css/main.a9bbd6fc.chunk.css",
-    "static/js/main.9511d5e0.chunk.js"
+    "static/css/main.17388689.chunk.css",
+    "static/js/main.60c013c9.chunk.js"
   ]
 }
