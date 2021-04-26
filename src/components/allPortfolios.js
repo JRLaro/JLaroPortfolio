@@ -1,5 +1,6 @@
 import port1 from "../images/logoDonde.png";
-import port2 from "../images/over.png";
+import port2 from "../images/tabulate.png";
+// import port2 from "../images/over.png";
 import port3 from "../images/employeeDirectory.png";
 // import port4 from "../images/budgetTracker.png";
 import port4 from "../images/ghLocator.png";
@@ -20,15 +21,26 @@ const portfolios = [
   },
   {
     id: 2,
-    category: "LeftOver | HangOver",
-    link1: "https://github.com/JRLaro/JJAM",
-    link2: "https://jrlaro.github.io/JJAM/",
+    category: "TABULATE",
+    link1: "https://github.com/JRLaro/Tabulate-React.git",
+    link2: "https://git.heroku.com/tabulate-notes.git",
     icon1: "Repo",
     icon2: "Demo",
     image: port2,
       title: "LeftOver | HangOver",
     //   description:
   },
+  // {
+  //   id: 2,
+  //   category: "LeftOver | HangOver",
+  //   link1: "https://github.com/JRLaro/JJAM",
+  //   link2: "https://jrlaro.github.io/JJAM/",
+  //   icon1: "Repo",
+  //   icon2: "Demo",
+  //   image: port2,
+  //     title: "LeftOver | HangOver",
+  //   //   description:
+  // },
   {
     id: 3,
     category: "Employee Directory",

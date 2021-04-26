@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function AboutPage() {
   return (
-    <div className="AboutPage container ">
+    <div className="AboutPage">
       <Title title={"About Me"} span={"About Me"} />
       <ImageSection />
       <Title title={"My Skills"} span={"My Skills"} />
