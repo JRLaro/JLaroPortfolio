@@ -23,7 +23,7 @@ const portfolios = [
     id: 2,
     category: "TABULATE",
     link1: "https://github.com/JRLaro/Tabulate-React.git",
-    link2: "https://git.heroku.com/tabulate-notes.git",
+    link2: "https://tabulate-notes.herokuapp.com",
     icon1: "Repo",
     icon2: "Demo",
     image: port2,
