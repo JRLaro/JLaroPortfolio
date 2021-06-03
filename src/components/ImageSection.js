@@ -8,7 +8,7 @@ function ImageSection() {
       {/* <div className="img"> <img src={about} alt=""/> </div>  */}
       <div className="about-info">
         <h4>
-        DREAM | DESIGN | DEVELOP<span className="jlaro"> DREAM | DESIGN | DEVELOP</span>
+        DREAM <span className="jlaro"> | </span> DESIGN <span className="jlaro"> | </span> DEVELOP
         </h4>
         <p className="about-text">
           

@@ -19,7 +19,7 @@ function AboutPage() {
         <div className="icons">
           <div className="row">
             <div className="col-sm-12">
-              <span className="icon-holder" style={iconStyle}>
+              <span className="icon-holder" >
                 <siIcons.SiHtml5 className="icon html" />
               </span>
               <span className="icon-holder">
