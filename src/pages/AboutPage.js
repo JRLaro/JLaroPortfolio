@@ -2,112 +2,58 @@ import React from "react";
 import Title from "../components/Title";
 import ImageSection from "../components/ImageSection";
 import * as siIcons from "react-icons/si";
-import { Link } from "react-router-dom";
 
 function AboutPage() {
+
+  const iconStyle = {
+  margin: '5px'
+}
+
   return (
     <div className="AboutPage">
       <Title title={"About Me"} span={"About Me"} />
       <ImageSection />
       <Title title={"My Skills"} span={"My Skills"} />
       <div className="skillsContainer">
-        {/* <div>
-                <siIcons.SiHtml5 className="icon ln" style={{ fontSize: "100px", color:"#e34c25" }}/>
-                <SkillsSection skill={'HTML'}/>
-            </div> */}
-        {/* <div>
-                <SkillsSection skill={'CSS'}  width={'80%'} />
-                <SkillsSection skill={'Javascript'} width={'60%'} />
-                <SkillsSection skill={'React Js'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} width={'60%'} />
-                <SkillsSection skill={'Adobe Illustrator'} width={'80%'} />
-                <SkillsSection skill={'Adobe After Effects'} width={'80%'} />
-                <SkillsSection skill={'Adobe Photoshop'} width={'80%'} />
-                <SkillsSection skill={'Adobe Lightroom'} width={'80%'} />
-                <SkillsSection skill={'Adobe Premier'} width={'80%'} />
-                <SkillsSection skill={'MongoDb'} width={'80%'} />
-                <SkillsSection skill={'Express'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} width={'85%'} />
-                <SkillsSection skill={'UI/Ux Design'}  width={'85%'} />  
-         <div className="icons"> 
+        <br />
+        <div className="icons">
+          <div className="row">
+            <div className="col-sm-12">
+              <span className="icon-holder" style={iconStyle}>
+                <siIcons.SiHtml5 className="icon html" />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiCss3 className="icon css" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiSass className="icon scss" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiBootstrap className="icon boot" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiJavascript className="icon js" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiTypescript className="icon ts" style={iconStyle}/>
+              </span>
 
-                <a href="#" className="icons-holder">
-                <span className="icons-holder">    
-                        <siIcons.SiHtml5 className="icon ln" style={{ fontSize: "100px", color:"#e34c25" }}/>
-                    <siIcons.SiCss3 className="icon ln" style={{ fontSize: "100px", color:"1572b6" }}/>
-                    <siIcons.SiJavascript className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiReact className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiMongodb className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiMysql className="icon ln" style={{ fontSize: "100px" }} />
-                    <siIcons.SiNodeDotJs className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiAdobeillustrator className="icon ln" style={{ fontSize: "100px", color:"purple" }}/>
-                    <siIcons.SiAdobelightroomclassic className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiAdobephotoshop className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiAdobeaftereffects className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiAdobepremiere className="icon ln" style={{ fontSize: "100px" }}/>
-                    <siIcons.SiMysql className="icon ln" style={{ fontSize: "100px" }}/>
-                    </span>
-                    </a>
-                    </div>
-            </div> */}
-              <div className="icons">
-                
-            <span className="icon-holder">
-              <siIcons.SiHtml5 className="icon html" />
-            </span>
-            <span className="icon-holder">
-              <siIcons.SiCss3 className="icon css" />
-            </span>
-            <span className="icon-holder">
-              <siIcons.SiSass className="icon scss" />
-            </span>
-            <span className="icon-holder">
-              <siIcons.SiBootstrap className="icon boot" />
-            </span>
-            <span className="icon-holder">
-              <siIcons.SiJavascript className="icon js" />
-            </span>
-            <span className="icon-holder">
-              <siIcons.SiTypescript className="icon ts" />
-            </span>
-                      
-          <span className="icon-holder">
-            <siIcons.SiReact className="icon react" />
-          </span>
-          <span className="icon-holder">
-            <siIcons.SiMongodb className="icon mdb" />
-          </span>
-          <span className="icon-holder">
-            <siIcons.SiMysql className="icon sql" />
-          </span>
-          <span className="icon-holder">
-            <siIcons.SiNodeDotJs className="icon node" />
-          </span>
-          {/* <Link to="#" target="_blank" className="icon-holder">
-            <siIcons.SiAdobeillustrator className="icon ap" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
-            <siIcons.SiAdobelightroomclassic className="icon gh" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
-            <siIcons.SiAdobephotoshop className="icon gh" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
-            <siIcons.SiAdobeaftereffects className="icon gh" />
-          </Link>
-          <Link to="#" target="_blank" className="icon-holder">
-            <siIcons.SiAdobepremiere className="icon gh" />
-          </Link> */}
+              <span className="icon-holder">
+                <siIcons.SiReact className="icon react" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiMongodb className="icon mdb" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiMysql className="icon sql" style={iconStyle}/>
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiNodeDotJs className="icon node" style={iconStyle}/>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
-
-      {/* <Title title={'Services'} span={'Services'} />
-            <div className="services-container">
-                <ServicesSection  title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                
-            </div>  */}
     </div>
   );
 }
