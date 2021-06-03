@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/JLaroPortfolio/static/css/main.17388689.chunk.css",
-    "main.js": "/JLaroPortfolio/static/js/main.197cd1e2.chunk.js",
-    "main.js.map": "/JLaroPortfolio/static/js/main.197cd1e2.chunk.js.map",
-    "runtime-main.js": "/JLaroPortfolio/static/js/runtime-main.91e660c2.js",
-    "runtime-main.js.map": "/JLaroPortfolio/static/js/runtime-main.91e660c2.js.map",
-    "static/js/2.ecf358c7.chunk.js": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js",
-    "static/js/2.ecf358c7.chunk.js.map": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js.map",
-    "index.html": "/JLaroPortfolio/index.html",
-    "static/css/main.17388689.chunk.css.map": "/JLaroPortfolio/static/css/main.17388689.chunk.css.map",
-    "static/js/2.ecf358c7.chunk.js.LICENSE.txt": "/JLaroPortfolio/static/js/2.ecf358c7.chunk.js.LICENSE.txt",
-    "static/media/dashboard.78c7f36c.png": "/JLaroPortfolio/static/media/dashboard.78c7f36c.png",
-    "static/media/employeeDirectory.d39d194a.png": "/JLaroPortfolio/static/media/employeeDirectory.d39d194a.png",
-    "static/media/j.LaroResume.94324776.pdf": "/JLaroPortfolio/static/media/j.LaroResume.94324776.pdf",
-    "static/media/logoDonde.ae32a4e0.png": "/JLaroPortfolio/static/media/logoDonde.ae32a4e0.png",
-    "static/media/profilePic.1e858336.png": "/JLaroPortfolio/static/media/profilePic.1e858336.png"
+    "main.css": "/static/css/main.17388689.chunk.css",
+    "main.js": "/static/js/main.a692a1bc.chunk.js",
+    "main.js.map": "/static/js/main.a692a1bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bcc20e23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bcc20e23.js.map",
+    "static/js/2.51f7b8c8.chunk.js": "/static/js/2.51f7b8c8.chunk.js",
+    "static/js/2.51f7b8c8.chunk.js.map": "/static/js/2.51f7b8c8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.17388689.chunk.css.map": "/static/css/main.17388689.chunk.css.map",
+    "static/js/2.51f7b8c8.chunk.js.LICENSE.txt": "/static/js/2.51f7b8c8.chunk.js.LICENSE.txt",
+    "static/media/dashboard.78c7f36c.png": "/static/media/dashboard.78c7f36c.png",
+    "static/media/employeeDirectory.d39d194a.png": "/static/media/employeeDirectory.d39d194a.png",
+    "static/media/j.LaroResume.94324776.pdf": "/static/media/j.LaroResume.94324776.pdf",
+    "static/media/logoDonde.ae32a4e0.png": "/static/media/logoDonde.ae32a4e0.png",
+    "static/media/profilePic.1e858336.png": "/static/media/profilePic.1e858336.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91e660c2.js",
-    "static/js/2.ecf358c7.chunk.js",
+    "static/js/runtime-main.bcc20e23.js",
+    "static/js/2.51f7b8c8.chunk.js",
     "static/css/main.17388689.chunk.css",
-    "static/js/main.197cd1e2.chunk.js"
+    "static/js/main.a692a1bc.chunk.js"
   ]
 }
