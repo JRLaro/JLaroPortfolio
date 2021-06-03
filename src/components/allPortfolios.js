@@ -27,7 +27,7 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port2,
-      title: "LeftOver | HangOver",
+      title: "TABULATE",
     //   description:
   },
   // {
