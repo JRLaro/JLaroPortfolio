@@ -5,7 +5,7 @@ import AboutPage from './pages/AboutPage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function TestingApp() {
