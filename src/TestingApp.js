@@ -16,7 +16,7 @@ function TestingApp() {
   }
 
   return (
-    <Router>
+    <Router basename="/JLaroPortfolio">
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
