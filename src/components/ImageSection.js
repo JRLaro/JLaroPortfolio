@@ -1,11 +1,9 @@
 import React from "react";
-// import about from '../img/about.jpg';
 import resume from "../images/JLARO.dev.resumé.pdf";
 
 function ImageSection() {
   return (
     <div className="ImageSection">
-      {/* <div className="img"> <img src={about} alt=""/> </div>  */}
       <div className="about-info">
         <h4>
         DREAM <span className="jlaro"> | </span> DESIGN <span className="jlaro"> | </span> DEVELOP
@@ -23,7 +21,7 @@ function ImageSection() {
           application or graphical design.
         </p>
 
-        <a href={resume} download rel="noreferrer" >
+        <a href={resume} download={resume} rel="noreferrer" >
           <button className="btn">Resume</button>
         </a>
       </div>
