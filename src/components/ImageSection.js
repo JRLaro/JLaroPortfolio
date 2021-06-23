@@ -23,7 +23,7 @@ function ImageSection() {
           application or graphical design.
         </p>
 
-        <a href={resume} download='JLARO.dev.resumé.pdf' rel="noreferrer" >
+        <a href={resume} download rel="noreferrer" >
           <button className="btn">Resume</button>
         </a>
       </div>
