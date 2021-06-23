@@ -1,6 +1,6 @@
 import React from "react";
 // import about from '../img/about.jpg';
-import resume from "../images/j.LaroResume.pdf";
+import resume from "../images/JLARO.dev.resumé.pdf";
 
 function ImageSection() {
   return (
@@ -23,7 +23,7 @@ function ImageSection() {
           application or graphical design.
         </p>
 
-        <a href={resume} rel="noreferrer" target="_blank">
+        <a href={resume} download='JLARO.dev.resumé.pdf' rel="noreferrer" >
           <button className="btn">Resume</button>
         </a>
       </div>

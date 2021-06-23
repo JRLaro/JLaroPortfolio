@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect } from "react";
 import * as faIcons from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../images/jLaroBlack.png";
 import Parallax from "parallax-js";
 
-function TestingHomePage() {
+function HomePage() {
   useEffect(() => {
     var scene = document.getElementById("scene");
     var parallaxInstance = new Parallax(scene);
@@ -57,4 +57,4 @@ function TestingHomePage() {
   );
 }
 
-export default TestingHomePage;
+export default HomePage;

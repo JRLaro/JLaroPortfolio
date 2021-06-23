@@ -1,6 +1,6 @@
 import './App.scss';
-import NavBar from './components/TestingNav';
-import TestingHomePage from './pages/TestingHomePage';
+import NavBar from './components/Navbar';
+import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import ContactPage from './pages/ContactPage';
@@ -8,7 +8,8 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
-function TestingApp() {
+
+function App() {
   const [navToggle, setNavToggle] = useState(false);
 
   const navClick = () =>{
@@ -30,7 +31,7 @@ function TestingApp() {
           <div className="content">
             <Switch>
               <Route exact path="/">
-                <TestingHomePage />
+                <HomePage />
               </Route>
               <Route path="/about" >
                 <AboutPage />
@@ -49,4 +50,4 @@ function TestingApp() {
   );
 }
 
-export default TestingApp;
+export default App;
