@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.97ab4312.chunk.css",
-    "main.js": "./static/js/main.b64f0c76.chunk.js",
-    "main.js.map": "./static/js/main.b64f0c76.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8fbf6204.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8fbf6204.js.map",
-    "static/js/2.d777f85f.chunk.js": "./static/js/2.d777f85f.chunk.js",
-    "static/js/2.d777f85f.chunk.js.map": "./static/js/2.d777f85f.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.97ab4312.chunk.css.map": "./static/css/main.97ab4312.chunk.css.map",
-    "static/js/2.d777f85f.chunk.js.LICENSE.txt": "./static/js/2.d777f85f.chunk.js.LICENSE.txt",
-    "static/media/JLARO.dev.resumé.938417b8.pdf": "./static/media/JLARO.dev.resumé.938417b8.pdf",
-    "static/media/dashboard.78c7f36c.png": "./static/media/dashboard.78c7f36c.png",
-    "static/media/employeeDirectory.d39d194a.png": "./static/media/employeeDirectory.d39d194a.png",
-    "static/media/logoDonde.ae32a4e0.png": "./static/media/logoDonde.ae32a4e0.png"
+    "main.css": "/static/css/main.97ab4312.chunk.css",
+    "main.js": "/static/js/main.b64f0c76.chunk.js",
+    "main.js.map": "/static/js/main.b64f0c76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bcc20e23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bcc20e23.js.map",
+    "static/js/2.d777f85f.chunk.js": "/static/js/2.d777f85f.chunk.js",
+    "static/js/2.d777f85f.chunk.js.map": "/static/js/2.d777f85f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.97ab4312.chunk.css.map": "/static/css/main.97ab4312.chunk.css.map",
+    "static/js/2.d777f85f.chunk.js.LICENSE.txt": "/static/js/2.d777f85f.chunk.js.LICENSE.txt",
+    "static/media/JLARO.dev.resumé.938417b8.pdf": "/static/media/JLARO.dev.resumé.938417b8.pdf",
+    "static/media/dashboard.78c7f36c.png": "/static/media/dashboard.78c7f36c.png",
+    "static/media/employeeDirectory.d39d194a.png": "/static/media/employeeDirectory.d39d194a.png",
+    "static/media/logoDonde.ae32a4e0.png": "/static/media/logoDonde.ae32a4e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fbf6204.js",
+    "static/js/runtime-main.bcc20e23.js",
     "static/js/2.d777f85f.chunk.js",
     "static/css/main.97ab4312.chunk.css",
     "static/js/main.b64f0c76.chunk.js"
