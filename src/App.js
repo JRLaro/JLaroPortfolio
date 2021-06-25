@@ -31,17 +31,14 @@ function App() {
           <div className="content">
             <Switch>
               <Route exact path="/" render={() => <HomePage/>}/>
-                {/* <HomePage />
-              </Route> */}
+            
               <Route  exact path="/about" render={()=> <AboutPage />} />
-                {/* <AboutPage />
-              </Route> */}
+          
               <Route exact path="/portfolios" render={()=> <PortfoliosPage />} />
-                {/* <PortfoliosPage />
-              </Route> */}
+               
               <Route exact path="/contact" render={()=> <ContactPage />} />
-                <ContactPage />
-              {/* </Route> */}
+
+              
             </Switch>
           </div>
       </div>
