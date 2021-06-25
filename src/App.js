@@ -18,7 +18,7 @@ function App() {
 
   return (
     <Router>
-    <div className="App ex6">
+    <div className="App ex7">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>
