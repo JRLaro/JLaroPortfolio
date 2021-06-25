@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/JLARO.dev.resumé.pdf";
+import resume from "../myResume/JLARO.dev.resumé.pdf";
 
 function ImageSection() {
   return (
