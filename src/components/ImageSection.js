@@ -21,7 +21,7 @@ function ImageSection() {
           design.
         </p>
 
-        <a href={resume} download={resume} rel="noreferrer" target="_blank">
+        <a href={resume} rel="noreferrer" target="_blank">
           <button className="btn">Resume</button>
         </a>
       </div>
