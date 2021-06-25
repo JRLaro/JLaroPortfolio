@@ -18,7 +18,7 @@ function App() {
 
   return (
     <Router>
-    <div className="App ex7">
+    <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>
@@ -30,18 +30,18 @@ function App() {
       <div className="main-content">
           <div className="content">
             <Switch>
-              <Route exact path="/">
-                <HomePage />
-              </Route>
-              <Route path="/about" >
-                <AboutPage />
-              </Route>
-              <Route path="/portfolios" >
-                <PortfoliosPage />
-              </Route>
-              <Route path="/contact" >
+              <Route exact path="/" render={() => <HomePage/>}/>
+                {/* <HomePage />
+              </Route> */}
+              <Route  exact path="/about" render={()=> <AboutPage />} />
+                {/* <AboutPage />
+              </Route> */}
+              <Route exact path="/portfolios" render={()=> <PortfoliosPage />} />
+                {/* <PortfoliosPage />
+              </Route> */}
+              <Route exact path="/contact" render={()=> <ContactPage />} />
                 <ContactPage />
-              </Route>
+              {/* </Route> */}
             </Switch>
           </div>
       </div>
