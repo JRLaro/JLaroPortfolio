@@ -7,6 +7,7 @@ import Parallax from "parallax-js";
 function HomePage() {
   useEffect(() => {
     var scene = document.getElementById("scene");
+    // eslint-disable-next-line no-unused-vars
     var parallaxInstance = new Parallax(scene);
   }, []);
 

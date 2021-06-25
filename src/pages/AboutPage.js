@@ -4,10 +4,9 @@ import ImageSection from "../components/ImageSection";
 import * as siIcons from "react-icons/si";
 
 function AboutPage() {
-
   const iconStyle = {
-  margin: '5px'
-}
+    margin: "5px",
+  };
 
   return (
     <div className="AboutPage">
@@ -19,36 +18,36 @@ function AboutPage() {
         <div className="icons">
           <div className="row">
             <div className="col-sm-12">
-              <span className="icon-holder" >
+              <span className="icon-holder">
                 <siIcons.SiHtml5 className="icon html" />
               </span>
               <span className="icon-holder">
-                <siIcons.SiCss3 className="icon css" style={iconStyle}/>
+                <siIcons.SiCss3 className="icon css" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiSass className="icon scss" style={iconStyle}/>
+                <siIcons.SiSass className="icon scss" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiBootstrap className="icon boot" style={iconStyle}/>
+                <siIcons.SiBootstrap className="icon boot" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiJavascript className="icon js" style={iconStyle}/>
+                <siIcons.SiJavascript className="icon js" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiTypescript className="icon ts" style={iconStyle}/>
+                <siIcons.SiTypescript className="icon ts" style={iconStyle} />
               </span>
 
               <span className="icon-holder">
-                <siIcons.SiReact className="icon react" style={iconStyle}/>
+                <siIcons.SiReact className="icon react" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiMongodb className="icon mdb" style={iconStyle}/>
+                <siIcons.SiMongodb className="icon mdb" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiMysql className="icon sql" style={iconStyle}/>
+                <siIcons.SiMysql className="icon sql" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiNodeDotJs className="icon node" style={iconStyle}/>
+                <siIcons.SiNodeDotJs className="icon node" style={iconStyle} />
               </span>
             </div>
           </div>
