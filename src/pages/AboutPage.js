@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../components/Title";
-import ImageSection from "../components/ImageSection";
+import AboutSection from "../components/AboutSection";
 import * as siIcons from "react-icons/si";
 
 function AboutPage() {
@@ -11,7 +11,7 @@ function AboutPage() {
   return (
     <div className="AboutPage">
       <Title title={"About Me"} span={"About Me"} />
-      <ImageSection />
+      <AboutSection />
       <Title title={"My Skills"} span={"My Skills"} />
       <div className="skillsContainer">
         <br />

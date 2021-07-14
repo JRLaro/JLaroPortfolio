@@ -1,3 +1,4 @@
+import port0 from "../images/logoBlack-01.svg";
 import port1 from "../images/logoDonde.png";
 import port2 from "../images/tabulate.png";
 import port3 from "../images/employeeDirectory.png";
@@ -6,6 +7,17 @@ import port5 from "../images/dashboard.png";
 import port6 from "../images/password.png";
 
 const portfolios = [
+  {
+    id: 0,
+    category: "Website-Template",
+    link1: "https://github.com/JRLaro/landing_page_template",
+    link2: "https://your-website-template.netlify.app/",
+    icon1: "Repo",
+    icon2: "Demo",
+    image: port0,
+    title: "Website-Template",
+    // description: "this is an application",
+  },
   {
     id: 1,
     category: "¿Dondé?",
@@ -25,10 +37,10 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port2,
-      title: "TABULATE",
-//   description:
+    title: "TABULATE",
+    //   description:
   },
- 
+
   {
     id: 3,
     category: "Employee Directory",
@@ -37,8 +49,8 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port3,
-      title: "Employee Directory",
-//   description:
+    title: "Employee Directory",
+    //   description:
   },
   {
     id: 4,
@@ -48,10 +60,10 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port4,
-      title: "GitHub Locator",
+    title: "GitHub Locator",
     //   description:
   },
-  
+
   {
     id: 5,
     category: "Workout Tracker",
@@ -60,7 +72,7 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port5,
-      title: "Workout Tracker",
+    title: "Workout Tracker",
     //   description:
   },
   {
@@ -71,7 +83,7 @@ const portfolios = [
     icon1: "Repo",
     icon2: "Demo",
     image: port6,
-      title: "Password Generator",
+    title: "Password Generator",
     //   description:
   },
 ];

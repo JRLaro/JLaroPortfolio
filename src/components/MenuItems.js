@@ -1,5 +1,4 @@
 import React from "react";
-// import { Redirect } from 'react-router-dom';
 
 function MenuItems({ menuItem }) {
   return (
@@ -12,7 +11,6 @@ function MenuItems({ menuItem }) {
                 <img src={item.image} alt="" />
                 <ul className="hover-items">
                   <li>
-                   
                     <a href={item.link1} target="_blank" rel="noreferrer">
                       {item.icon1}
                     </a>

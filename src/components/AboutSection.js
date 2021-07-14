@@ -1,9 +1,9 @@
 import React from "react";
 import resume from "../myResume/resume.pdf";
 
-function ImageSection() {
+function AboutSection() {
   return (
-    <div className="ImageSection">
+    <div className="AboutSection">
       <div className="about-info">
         <h4>
           DREAM <span className="jlaro"> | </span> DESIGN{" "}
@@ -29,4 +29,4 @@ function ImageSection() {
   );
 }
 
-export default ImageSection;
+export default AboutSection;

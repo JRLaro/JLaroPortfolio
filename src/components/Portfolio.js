@@ -1,15 +1,14 @@
-import ImageSlider from "./ImageSlider"
-import { SliderData } from "./SliderData"
-
+import ImageSlider from "./ImageSlider";
+import { SliderData } from "./SliderData";
 
 const Portfolio = () => {
-    return (
-        <div className="col">
-            <div className="row">
-        <ImageSlider slides={SliderData}/>
-            </div>
-            </div>
-    )
-}
+  return (
+    <div className="col">
+      <div className="row">
+        <ImageSlider slides={SliderData} />
+      </div>
+    </div>
+  );
+};
 
-export default Portfolio
+export default Portfolio;
