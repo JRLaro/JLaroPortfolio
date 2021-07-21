@@ -1,5 +1,5 @@
 import React from "react";
-import Categories from "../components/Categories";
+// import Categories from "../components/Categories";
 import MenuItems from "../components/MenuItems";
 import Title from "../components/Title";
 import portfolios from "../components/allPortfolios";
@@ -32,7 +32,7 @@ function PortfoliosPage() {
         <Title title={"Portfolios"} span={"portfolios"} />
       </div>
       <div className="portfolios-data">
-        <Categories filter={filter} categories={categories} />
+        {/* <Categories filter={filter} categories={categories} /> */}
         <MenuItems menuItem={menuItems} />
       </div>
     </div>

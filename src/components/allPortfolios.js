@@ -64,17 +64,17 @@ const portfolios = [
     //   description:
   },
 
-  {
-    id: 5,
-    category: "Workout Tracker",
-    link1: "https://github.com/JRLaro/workOutTracker",
-    link2: "https://shrouded-beyond-71481.herokuapp.com/",
-    icon1: "Repo",
-    icon2: "Demo",
-    image: port5,
-    title: "Workout Tracker",
-    //   description:
-  },
+  // {
+  //   id: 5,
+  //   category: "Workout Tracker",
+  //   link1: "https://github.com/JRLaro/workOutTracker",
+  //   link2: "https://shrouded-beyond-71481.herokuapp.com/",
+  //   icon1: "Repo",
+  //   icon2: "Demo",
+  //   image: port5,
+  //   title: "Workout Tracker",
+  //   //   description:
+  // },
   {
     id: 6,
     category: "Password Generator",
