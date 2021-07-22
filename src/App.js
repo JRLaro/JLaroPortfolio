@@ -17,7 +17,6 @@ function App() {
 
   return (
     <Router>
-      <Wrapper>
       <div className="App">
         <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
           <NavBar />
@@ -27,6 +26,7 @@ function App() {
           <div className="lines-2"></div>
           <div className="lines-3"></div>
         </div>
+      <Wrapper>
         <div className="main-content">
           <div className="content">
             <Switch>
@@ -41,8 +41,8 @@ function App() {
             </Switch>
           </div>
         </div>
-        </div>
         </Wrapper>
+        </div>
     </Router>
   );
 }
