@@ -77,12 +77,6 @@ function AboutPage() {
                         style={iconStyle}
                       />
                     </span>
-
-              {/* testing */}
-              {/* <div className="row mt-3"> */}
-              {/* <div className="icons">
-                <div className="row">
-                  <div className="col-sm-12"> */}
                     <span className="icon-holder">
                       <siIcons.SiAdobecreativecloud
                         className="icon node"
@@ -119,10 +113,6 @@ function AboutPage() {
                         style={iconStyle}
                       />
                     </span>
-                   
-                  {/* </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

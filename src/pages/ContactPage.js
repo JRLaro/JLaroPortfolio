@@ -2,7 +2,6 @@
 import React from "react";
 import ContactItem from "../components/ContactItem";
 import Title from "../components/Title";
-import {GrLocation} from 'react-icons/gr'
 import emailjs from "emailjs-com";
 
 function ContactPage() {
@@ -116,7 +115,7 @@ function ContactPage() {
         </div>
 
         <div className="contact-sect">
-          <ContactItem icon={<GrLocation />} text1={"Apopka, FL"} title={"Location"} />
+          <ContactItem text1={"Apopka, FL"} title={"Location"} />
           <ContactItem text1={"407-952-8310"} title={"Phone"} />
           <ContactItem text1={"jlaro.webdev@gmail.com"} title={"Email"} />
         </div>

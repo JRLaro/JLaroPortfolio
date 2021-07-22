@@ -3,7 +3,7 @@ import port1 from "../images/logoDonde.png";
 import port2 from "../images/tabulate.png";
 import port3 from "../images/employeeDirectory.png";
 import port4 from "../images/ghLocator.png";
-import port5 from "../images/dashboard.png";
+// import port5 from "../images/dashboard.png";
 import port6 from "../images/password.png";
 
 const portfolios = [
