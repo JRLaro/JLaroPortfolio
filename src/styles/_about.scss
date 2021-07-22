@@ -103,6 +103,9 @@
       .boot:hover {
         color: #563d7c;
       }
+      .mui:hover {
+        color: #007DC5;
+      }
       .js:hover {
         color: #e3a42e;
       }
@@ -115,20 +118,69 @@
       .mdb:hover {
         color: #4db33d;
       }
+      .ex:hover {
+        color: #3d3d3d;
+      }
       .sql:hover {
         color: #00758f;
       }
       .node:hover {
         color: #44883e;
       }
+      .jquery:hover {
+        color: #0769ad;
+      }
+      .gh:hover {
+        color: #333;
+      }
+      .vs:hover {
+        color: #4AAFF3;
+      }
       .ai:hover {
-        color: rgba(0, 0, 0, 0.788);
+        color: #F79502;
       }
-      .ap:hover {
-        color: rgba(0, 0, 0, 0.788);
+      .ae:hover {
+        color: #9999FF;
       }
-    }
-  }
+      .xd:hover {
+        color: #F75EEE;
+      }
+      .ps:hover {
+        color: #31A8FF;
+      }
+      .lr:hover {
+        color: #2EA3F7;
+      }
+      .ac:hover {
+        color: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+}
+      
 
 
 .btn-port {
@@ -169,4 +221,6 @@
   @media screen and (max-width: 1100px) {
     margin: 2rem 2rem;
   }
+}
+}
 }

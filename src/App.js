@@ -1,11 +1,11 @@
 import "./App.scss";
 import NavBar from "./components/Navbar";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import PortfoliosPage from "./pages/PortfoliosPage";
 import ContactPage from "./pages/ContactPage";
-import { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -29,15 +29,12 @@ function App() {
           <div className="content">
             <Switch>
               <Route exact path="/" render={() => <HomePage />} />
-
               <Route exact path="/about" render={() => <AboutPage />} />
-
               <Route
                 exact
                 path="/portfolios"
                 render={() => <PortfoliosPage />}
               />
-
               <Route exact path="/contact" render={() => <ContactPage />} />
             </Switch>
           </div>

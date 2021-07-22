@@ -6,12 +6,12 @@ import * as siIcons from "react-icons/si";
 function AboutPage() {
   const iconStyle = {
     margin: "5px",
-    fontSize: '55px'
+    fontSize: "55px",
   };
   const devStyle = {
     margin: "5px",
-    top: '200px',
-    fontSize: '60px',
+    top: "200px",
+    fontSize: "60px",
   };
 
   return (
@@ -39,7 +39,7 @@ function AboutPage() {
               <span className="icon-holder">
                 <span className="icon-holder">
                   <siIcons.SiMaterialUi
-                    className="icon node"
+                    className="icon mui"
                     style={iconStyle}
                   />
                 </span>
@@ -56,8 +56,7 @@ function AboutPage() {
                 <siIcons.SiMongodb className="icon mdb" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                {/* <siIcons.SiGithub className="icon node" style={iconStyle} /> */}
-                <i className="devicon-express-original" style={devStyle}></i>
+                <i className="devicon-express-original ex" style={devStyle}></i>
               </span>
               <span className="icon-holder">
                 <siIcons.SiMysql className="icon sql" style={iconStyle} />
@@ -66,53 +65,50 @@ function AboutPage() {
                 <siIcons.SiNodeDotJs className="icon node" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiJquery className="icon node" style={iconStyle} />
+                <siIcons.SiJquery className="icon jquery" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                <siIcons.SiGithub className="icon node" style={iconStyle} />
+                <siIcons.SiGithub className="icon gh" style={iconStyle} />
               </span>
               <span className="icon-holder">
-                      <siIcons.SiVisualstudio
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobecreativecloud
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobeillustrator
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobeaftereffects
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobexd
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobephotoshop
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
-                    <span className="icon-holder">
-                      <siIcons.SiAdobelightroomclassic
-                        className="icon node"
-                        style={iconStyle}
-                      />
-                    </span>
+                <siIcons.SiVisualstudio
+                  className="icon vs"
+                  style={iconStyle}
+                />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobecreativecloud
+                  className="icon ac"
+                  style={iconStyle}
+                />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobeillustrator
+                  className="icon ai"
+                  style={iconStyle}
+                />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobeaftereffects
+                  className="icon ae"
+                  style={iconStyle}
+                />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobexd className="icon xd" style={iconStyle} />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobephotoshop
+                  className="icon ps"
+                  style={iconStyle}
+                />
+              </span>
+              <span className="icon-holder">
+                <siIcons.SiAdobelightroomclassic
+                  className="icon lr"
+                  style={iconStyle}
+                />
+              </span>
             </div>
           </div>
         </div>
