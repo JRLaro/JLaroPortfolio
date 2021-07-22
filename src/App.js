@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import PortfoliosPage from "./pages/PortfoliosPage";
 import ContactPage from "./pages/ContactPage";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -16,7 +17,8 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App1">
+      <Wrapper>
         <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
           <NavBar />
         </div>
@@ -39,7 +41,8 @@ function App() {
             </Switch>
           </div>
         </div>
-      </div>
+        </Wrapper>
+        </div>
     </Router>
   );
 }
